@@ -8,7 +8,7 @@ git:
   depth: 3
 script:
   - yarn build
-  - echo 'erickperez.me' > public/CNAME
+  - echo 'cv.erickperez.me' > public/CNAME
 deploy:
   provider: pages
   skip-cleanup: true
